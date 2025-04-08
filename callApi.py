@@ -1,3 +1,7 @@
+'''
+pip install fastapi uvicorn
+'''
+
 import pandas as pd
 import re
 import nltk
