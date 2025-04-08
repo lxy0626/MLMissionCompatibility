@@ -48,3 +48,17 @@ def predict(input_data: MissionInput):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000)
+
+#js to test script in web browser, no problem
+# #fetch('http://127.0.0.1:8000/predict', {
+#   method: 'POST',
+#   headers: {
+#     'Content-Type': 'application/json'
+#   },
+#   body: JSON.stringify({
+#     mission: 'Example mission description'
+#   })
+# })
+# .then(response => response.json())
+# .then(data => console.log(data))
+# .catch(error => console.error('Error:', error));
